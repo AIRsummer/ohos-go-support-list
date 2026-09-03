@@ -1,0 +1,596 @@
+{
+  "last_updated": "2026-09-03",
+  "total": 98,
+  "official": 86,
+  "repo": 12,
+  "packages": [
+    {
+      "name": "clipboard",
+      "module": "github.com/atotto/clipboard",
+      "version": "v0.1.2",
+      "source": "repo"
+    },
+    {
+      "name": "jstream",
+      "module": "github.com/bcicen/jstream",
+      "version": "v1.0.1",
+      "source": "official"
+    },
+    {
+      "name": "go-bitmap",
+      "module": "github.com/boljen/go-bitmap",
+      "version": "v0.0.0-20151001105940-23cd2fb0ce7d",
+      "source": "official"
+    },
+    {
+      "name": "go-scp",
+      "module": "github.com/bramvdbogaerde/go-scp",
+      "version": "v1.2.1",
+      "source": "official"
+    },
+    {
+      "name": "go-prompt",
+      "module": "github.com/c-bata/go-prompt",
+      "version": "v0.2.3",
+      "source": "repo"
+    },
+    {
+      "name": "rpc2",
+      "module": "github.com/cenkalti/rpc2",
+      "version": "v0.0.0-20201118113917-be2cde9a479f",
+      "source": "official"
+    },
+    {
+      "name": "gamma",
+      "module": "github.com/chaitin/gamma",
+      "version": "v0.0.37",
+      "source": "official"
+    },
+    {
+      "name": "cdproto",
+      "module": "github.com/chromedp/cdproto",
+      "version": "v0.0.0-20230802225258-3cf4e6d46a89",
+      "source": "official"
+    },
+    {
+      "name": "chromedp",
+      "module": "github.com/chromedp/chromedp",
+      "version": "v0.9.2",
+      "source": "repo"
+    },
+    {
+      "name": "gh",
+      "module": "github.com/cli/cli/v2",
+      "version": "v2.82.1",
+      "source": "official"
+    },
+    {
+      "name": "go-spew",
+      "module": "github.com/davecgh/go-spew",
+      "version": "v1.1.2-0.20180830191138-d8f796af33cc",
+      "source": "official"
+    },
+    {
+      "name": "golang-set",
+      "module": "github.com/deckarep/golang-set",
+      "version": "v1.8.0",
+      "source": "official"
+    },
+    {
+      "name": "badger",
+      "module": "github.com/dgraph-io/badger/v2",
+      "version": "v2.2007.4",
+      "source": "official"
+    },
+    {
+      "name": "dingtalk-workspace-cli",
+      "module": "github.com/DingTalk-Real-AI/dingtalk-workspace-cli",
+      "version": "v1.0.53-beta.7.0.20260721124719-31c3acc94b59",
+      "source": "repo"
+    },
+    {
+      "name": "regexp2",
+      "module": "github.com/dlclark/regexp2",
+      "version": "v1.11.4",
+      "source": "official"
+    },
+    {
+      "name": "goja",
+      "module": "github.com/dop251/goja",
+      "version": "v0.0.0-20240220182346-e401ed450204",
+      "source": "official"
+    },
+    {
+      "name": "keyboard",
+      "module": "github.com/eiannone/keyboard",
+      "version": "v0.0.0-20200508000154-caf4b762e807",
+      "source": "repo"
+    },
+    {
+      "name": "go-imap",
+      "module": "github.com/emersion/go-imap",
+      "version": "v1.2.1",
+      "source": "official"
+    },
+    {
+      "name": "dot",
+      "module": "github.com/emicklei/dot",
+      "version": "v0.14.0",
+      "source": "official"
+    },
+    {
+      "name": "nvdtools",
+      "module": "github.com/facebookincubator/nvdtools",
+      "version": "v0.1.6-0.20230612062812-070f4ce499c0",
+      "source": "official"
+    },
+    {
+      "name": "mgo",
+      "module": "github.com/globalsign/mgo",
+      "version": "v0.0.0-20181015135952-eeefdecb41b8",
+      "source": "repo"
+    },
+    {
+      "name": "ldap",
+      "module": "github.com/go-ldap/ldap/v3",
+      "version": "v3.4.4",
+      "source": "official"
+    },
+    {
+      "name": "analysis",
+      "module": "github.com/go-openapi/analysis",
+      "version": "v0.23.0",
+      "source": "official"
+    },
+    {
+      "name": "loads",
+      "module": "github.com/go-openapi/loads",
+      "version": "v0.22.0",
+      "source": "official"
+    },
+    {
+      "name": "spec",
+      "module": "github.com/go-openapi/spec",
+      "version": "v0.21.0",
+      "source": "official"
+    },
+    {
+      "name": "strfmt",
+      "module": "github.com/go-openapi/strfmt",
+      "version": "v0.23.0",
+      "source": "official"
+    },
+    {
+      "name": "validate",
+      "module": "github.com/go-openapi/validate",
+      "version": "v0.24.0",
+      "source": "official"
+    },
+    {
+      "name": "redis",
+      "module": "github.com/go-redis/redis",
+      "version": "v6.15.9+incompatible",
+      "source": "official"
+    },
+    {
+      "name": "rod",
+      "module": "github.com/go-rod/rod",
+      "version": "v0.116.0",
+      "source": "official"
+    },
+    {
+      "name": "stealth",
+      "module": "github.com/go-rod/stealth",
+      "version": "v0.4.9",
+      "source": "repo"
+    },
+    {
+      "name": "glob",
+      "module": "github.com/gobwas/glob",
+      "version": "v0.2.3",
+      "source": "official"
+    },
+    {
+      "name": "colly",
+      "module": "github.com/gocolly/colly",
+      "version": "v1.2.0",
+      "source": "repo"
+    },
+    {
+      "name": "jwt",
+      "module": "github.com/golang-jwt/jwt/v4",
+      "version": "v4.5.2",
+      "source": "official"
+    },
+    {
+      "name": "groupcache",
+      "module": "github.com/golang/groupcache",
+      "version": "v0.0.0-20210331224755-41bb18bfe9da",
+      "source": "official"
+    },
+    {
+      "name": "protobuf",
+      "module": "github.com/golang/protobuf",
+      "version": "v1.5.4",
+      "source": "official"
+    },
+    {
+      "name": "go-github",
+      "module": "github.com/google/go-github",
+      "version": "v17.0.0+incompatible",
+      "source": "repo"
+    },
+    {
+      "name": "gopacket",
+      "module": "github.com/google/gopacket",
+      "version": "v1.1.19",
+      "source": "repo"
+    },
+    {
+      "name": "css",
+      "module": "github.com/gorilla/css",
+      "version": "v1.0.0",
+      "source": "official"
+    },
+    {
+      "name": "gosnmp",
+      "module": "github.com/gosnmp/gosnmp",
+      "version": "v1.35.0",
+      "source": "official"
+    },
+    {
+      "name": "go-smb2",
+      "module": "github.com/hirochachacha/go-smb2",
+      "version": "v1.1.0",
+      "source": "official"
+    },
+    {
+      "name": "go-ebcdic",
+      "module": "github.com/indece-official/go-ebcdic",
+      "version": "v0.0.0-20190525020121-de04eeaabf72",
+      "source": "official"
+    },
+    {
+      "name": "copier",
+      "module": "github.com/jinzhu/copier",
+      "version": "v0.4.0",
+      "source": "official"
+    },
+    {
+      "name": "pp",
+      "module": "github.com/k0kubun/pp",
+      "version": "v3.0.1+incompatible",
+      "source": "official"
+    },
+    {
+      "name": "golog",
+      "module": "github.com/kataras/golog",
+      "version": "v0.1.11",
+      "source": "official"
+    },
+    {
+      "name": "pio",
+      "module": "github.com/kataras/pio",
+      "version": "v0.0.13",
+      "source": "official"
+    },
+    {
+      "name": "promptui",
+      "module": "github.com/manifoldco/promptui",
+      "version": "v0.3.2",
+      "source": "official"
+    },
+    {
+      "name": "httprouter",
+      "module": "github.com/mashiro01/httprouter",
+      "version": "v0.0.0-20250703024700-6012c31a4f50",
+      "source": "official"
+    },
+    {
+      "name": "go-sqlite3",
+      "module": "github.com/mattn/go-sqlite3",
+      "version": "v1.14.17",
+      "source": "official"
+    },
+    {
+      "name": "dns",
+      "module": "github.com/miekg/dns",
+      "version": "v1.1.59",
+      "source": "official"
+    },
+    {
+      "name": "go-vnc",
+      "module": "github.com/mitchellh/go-vnc",
+      "version": "v0.0.0-20150629162542-723ed9867aed",
+      "source": "official"
+    },
+    {
+      "name": "termbox-go",
+      "module": "github.com/nsf/termbox-go",
+      "version": "v0.0.0-20190817171036-93860e161317",
+      "source": "official"
+    },
+    {
+      "name": "tablewriter",
+      "module": "github.com/olekukonko/tablewriter",
+      "version": "v0.0.5",
+      "source": "official"
+    },
+    {
+      "name": "geoip2",
+      "module": "github.com/oschwald/geoip2-golang",
+      "version": "v1.4.0",
+      "source": "official"
+    },
+    {
+      "name": "ants",
+      "module": "github.com/panjf2000/ants/v2",
+      "version": "v2.5.0",
+      "source": "official"
+    },
+    {
+      "name": "errors",
+      "module": "github.com/pkg/errors",
+      "version": "v0.9.1",
+      "source": "official"
+    },
+    {
+      "name": "pro-bing",
+      "module": "github.com/prometheus-community/pro-bing",
+      "version": "v0.4.0",
+      "source": "official"
+    },
+    {
+      "name": "goquery",
+      "module": "github.com/PuerkitoBio/goquery",
+      "version": "v1.8.1",
+      "source": "official"
+    },
+    {
+      "name": "go-syslog",
+      "module": "github.com/Pyrrvs/go-syslog",
+      "version": "v0.0.0-20160414154546-62d086b66b76",
+      "source": "official"
+    },
+    {
+      "name": "gocui",
+      "module": "github.com/rocket049/gocui",
+      "version": "v0.3.2",
+      "source": "official"
+    },
+    {
+      "name": "iprange",
+      "module": "github.com/russtone/iprange",
+      "version": "v1.0.1",
+      "source": "official"
+    },
+    {
+      "name": "chardet",
+      "module": "github.com/saintfish/chardet",
+      "version": "v0.0.0-20230101081208-5e3ef4b5456d",
+      "source": "official"
+    },
+    {
+      "name": "go.uuid",
+      "module": "github.com/satori/go.uuid",
+      "version": "v1.2.1-0.20181028125025-b2ce2384e17b",
+      "source": "official"
+    },
+    {
+      "name": "goftp",
+      "module": "github.com/secsy/goftp",
+      "version": "v0.0.0-20200609142545-aa2de14babf4",
+      "source": "official"
+    },
+    {
+      "name": "sarama",
+      "module": "github.com/Shopify/sarama",
+      "version": "v1.24.0",
+      "source": "official"
+    },
+    {
+      "name": "weighted",
+      "module": "github.com/smallnest/weighted",
+      "version": "v0.0.0-20230419055410-36b780e40a7a",
+      "source": "official"
+    },
+    {
+      "name": "amqp",
+      "module": "github.com/streadway/amqp",
+      "version": "v1.1.0",
+      "source": "official"
+    },
+    {
+      "name": "testify",
+      "module": "github.com/stretchr/testify",
+      "version": "v1.10.0",
+      "source": "official"
+    },
+    {
+      "name": "go-pop3",
+      "module": "github.com/taknb2nch/go-pop3",
+      "version": "v0.0.0-20140407022049-72f6fae12d45",
+      "source": "official"
+    },
+    {
+      "name": "abool",
+      "module": "github.com/tevino/abool",
+      "version": "v0.0.0-20170917061928-9b9efcf221b5",
+      "source": "official"
+    },
+    {
+      "name": "go-funk",
+      "module": "github.com/thoas/go-funk",
+      "version": "v0.9.3",
+      "source": "official"
+    },
+    {
+      "name": "nmap",
+      "module": "github.com/Ullaakut/nmap/v2",
+      "version": "v2.2.2",
+      "source": "official"
+    },
+    {
+      "name": "cli",
+      "module": "github.com/urfave/cli",
+      "version": "v1.22.15",
+      "source": "official"
+    },
+    {
+      "name": "cli v2",
+      "module": "github.com/urfave/cli/v2",
+      "version": "v2.27.2",
+      "source": "official"
+    },
+    {
+      "name": "mpb",
+      "module": "github.com/vbauerster/mpb/v4",
+      "version": "v4.11.1",
+      "source": "official"
+    },
+    {
+      "name": "grok",
+      "module": "github.com/vjeantet/grok",
+      "version": "v1.0.1",
+      "source": "official"
+    },
+    {
+      "name": "msgpack",
+      "module": "github.com/vmihailenco/msgpack/v4",
+      "version": "v4.3.12",
+      "source": "official"
+    },
+    {
+      "name": "notesmd-cli",
+      "module": "github.com/Yakitrak/notesmd-cli",
+      "version": "v0.3.7-0.20260625165237-cb05cc201f16",
+      "source": "repo"
+    },
+    {
+      "name": "goob",
+      "module": "github.com/ysmood/goob",
+      "version": "v0.4.0",
+      "source": "official"
+    },
+    {
+      "name": "gson",
+      "module": "github.com/ysmood/gson",
+      "version": "v0.7.3",
+      "source": "official"
+    },
+    {
+      "name": "go-nfs-client",
+      "module": "github.com/zema1/go-nfs-client",
+      "version": "v0.0.0-20200604081958-0cf942f0e0fe",
+      "source": "official"
+    },
+    {
+      "name": "martian",
+      "module": "github.com/zema1/martian",
+      "version": "v1.0.0",
+      "source": "repo"
+    },
+    {
+      "name": "bbolt",
+      "module": "go.etcd.io/bbolt",
+      "version": "v1.3.7",
+      "source": "official"
+    },
+    {
+      "name": "automaxprocs",
+      "module": "go.uber.org/automaxprocs",
+      "version": "v1.3.0",
+      "source": "official"
+    },
+    {
+      "name": "fx",
+      "module": "go.uber.org/fx",
+      "version": "v1.19.2",
+      "source": "official"
+    },
+    {
+      "name": "crypto",
+      "module": "golang.org/x/crypto",
+      "version": "v0.29.0",
+      "source": "official"
+    },
+    {
+      "name": "net",
+      "module": "golang.org/x/net",
+      "version": "v0.31.0",
+      "source": "official"
+    },
+    {
+      "name": "oauth2",
+      "module": "golang.org/x/oauth2",
+      "version": "v0.22.0",
+      "source": "official"
+    },
+    {
+      "name": "text",
+      "module": "golang.org/x/text",
+      "version": "v0.20.0",
+      "source": "official"
+    },
+    {
+      "name": "time",
+      "module": "golang.org/x/time",
+      "version": "v0.5.0",
+      "source": "official"
+    },
+    {
+      "name": "grpc",
+      "module": "google.golang.org/grpc",
+      "version": "v1.65.0",
+      "source": "official"
+    },
+    {
+      "name": "protobuf",
+      "module": "google.golang.org/protobuf",
+      "version": "v1.35.1",
+      "source": "official"
+    },
+    {
+      "name": "queue.v1",
+      "module": "gopkg.in/eapache/queue.v1",
+      "version": "v1.1.0",
+      "source": "official"
+    },
+    {
+      "name": "go-syslog.v2",
+      "module": "gopkg.in/mcuadros/go-syslog.v2",
+      "version": "v2.3.0",
+      "source": "official"
+    },
+    {
+      "name": "lumberjack.v2",
+      "module": "gopkg.in/natefinch/lumberjack.v2",
+      "version": "v2.2.1",
+      "source": "official"
+    },
+    {
+      "name": "yaml.v2",
+      "module": "gopkg.in/yaml.v2",
+      "version": "v2.4.0",
+      "source": "official"
+    },
+    {
+      "name": "yaml.v3",
+      "module": "gopkg.in/yaml.v3",
+      "version": "v3.0.1",
+      "source": "official"
+    },
+    {
+      "name": "gorm",
+      "module": "gorm.io/gorm",
+      "version": "v1.25.10",
+      "source": "official"
+    },
+    {
+      "name": "go-pkcs12",
+      "module": "software.sslmate.com/src/go-pkcs12",
+      "version": "v0.2.0",
+      "source": "official"
+    }
+  ]
+}
