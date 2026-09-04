@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-09-03",
-  "total": 98,
-  "official": 86,
-  "repo": 12,
+  "last_updated": "2026-09-04",
+  "total": 113,
+  "official": 97,
+  "repo": 16,
   "packages": [
     {
       "name": "clipboard",
@@ -59,9 +59,27 @@
       "source": "repo"
     },
     {
+      "name": "civo",
+      "module": "github.com/civo/cli",
+      "version": "v1.4.0",
+      "source": "official"
+    },
+    {
       "name": "gh",
       "module": "github.com/cli/cli/v2",
       "version": "v2.82.1",
+      "source": "official"
+    },
+    {
+      "name": "medusa",
+      "module": "github.com/crytic/medusa",
+      "version": "v0.0.0-20260514175253-66bb59d05502",
+      "source": "official"
+    },
+    {
+      "name": "dapr",
+      "module": "github.com/dapr/cli",
+      "version": "v1.15.2",
       "source": "official"
     },
     {
@@ -119,10 +137,22 @@
       "source": "official"
     },
     {
+      "name": "esbuild",
+      "module": "github.com/evanw/esbuild",
+      "version": "v0.28.2",
+      "source": "official"
+    },
+    {
       "name": "nvdtools",
       "module": "github.com/facebookincubator/nvdtools",
       "version": "v0.1.6-0.20230612062812-070f4ce499c0",
       "source": "official"
+    },
+    {
+      "name": "ffuf",
+      "module": "github.com/ffuf/ffuf/v2",
+      "version": "v2.2.2-0.20260820093616-33c67d28c85b",
+      "source": "repo"
     },
     {
       "name": "mgo",
@@ -215,6 +245,12 @@
       "source": "official"
     },
     {
+      "name": "golangci-lint",
+      "module": "github.com/golangci/golangci-lint/v2",
+      "version": "v2.8.0",
+      "source": "official"
+    },
+    {
       "name": "go-github",
       "module": "github.com/google/go-github",
       "version": "v17.0.0+incompatible",
@@ -275,6 +311,18 @@
       "source": "official"
     },
     {
+      "name": "kurtosis",
+      "module": "github.com/kurtosis-tech/kurtosis/cli/cli",
+      "version": "v1.16.6",
+      "source": "official"
+    },
+    {
+      "name": "lark-cli",
+      "module": "github.com/larksuite/cli",
+      "version": "v0.0.0-20260827173822-0d5334a0cdfd",
+      "source": "repo"
+    },
+    {
       "name": "promptui",
       "module": "github.com/manifoldco/promptui",
       "version": "v0.3.2",
@@ -291,6 +339,12 @@
       "module": "github.com/mattn/go-sqlite3",
       "version": "v1.14.17",
       "source": "official"
+    },
+    {
+      "name": "gmailctl",
+      "module": "github.com/mbrt/gmailctl",
+      "version": "v0.11.0",
+      "source": "repo"
     },
     {
       "name": "dns",
@@ -338,6 +392,12 @@
       "name": "pro-bing",
       "module": "github.com/prometheus-community/pro-bing",
       "version": "v0.4.0",
+      "source": "official"
+    },
+    {
+      "name": "prometheus",
+      "module": "github.com/prometheus/prometheus",
+      "version": "v3.8.1",
       "source": "official"
     },
     {
@@ -389,9 +449,21 @@
       "source": "official"
     },
     {
+      "name": "checksec",
+      "module": "github.com/slimm609/checksec",
+      "version": "v3.0.2",
+      "source": "official"
+    },
+    {
       "name": "weighted",
       "module": "github.com/smallnest/weighted",
       "version": "v0.0.0-20230419055410-36b780e40a7a",
+      "source": "official"
+    },
+    {
+      "name": "bd",
+      "module": "github.com/steveyegge/beads",
+      "version": "v0.49.1",
       "source": "official"
     },
     {
@@ -491,6 +563,12 @@
       "source": "repo"
     },
     {
+      "name": "gitleaks",
+      "module": "github.com/zricethezav/gitleaks/v8",
+      "version": "v8.29.1",
+      "source": "repo"
+    },
+    {
       "name": "bbolt",
       "module": "go.etcd.io/bbolt",
       "version": "v1.3.7",
@@ -515,6 +593,12 @@
       "source": "official"
     },
     {
+      "name": "gomobile",
+      "module": "golang.org/x/mobile",
+      "version": "v0.0.0-20260209203831-923679eb55af",
+      "source": "official"
+    },
+    {
       "name": "net",
       "module": "golang.org/x/net",
       "version": "v0.31.0",
@@ -536,6 +620,12 @@
       "name": "time",
       "module": "golang.org/x/time",
       "version": "v0.5.0",
+      "source": "official"
+    },
+    {
+      "name": "goimports",
+      "module": "golang.org/x/tools",
+      "version": "v0.42.0",
       "source": "official"
     },
     {

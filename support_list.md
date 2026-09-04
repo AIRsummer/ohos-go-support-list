@@ -8,11 +8,12 @@ go env -w GOPROXY=https://go.repo.openharmony.cn/artifactory/openharmony-go
 
 | 包名 | 版本 | 仓库地址(module路径) | 获取方式 |
 |---|---|---|---|
-| go-sqlite3 | v1.14.17 | github.com/mattn/go-sqlite3 | 官方源 |
+| dingtalk-workspace-cli | v1.0.53-beta.7.0.20260721124719-31c3acc94b59 | github.com/DingTalk-Real-AI/dingtalk-workspace-cli | 制品仓 |
 | goquery | v1.8.1 | github.com/PuerkitoBio/goquery | 官方源 |
 | go-syslog | v0.0.0-20160414154546-62d086b66b76 | github.com/Pyrrvs/go-syslog | 官方源 |
 | sarama | v1.24.0 | github.com/Shopify/sarama | 官方源 |
 | nmap | v2.2.2 | github.com/Ullaakut/nmap/v2 | 官方源 |
+| notesmd-cli | v0.3.7-0.20260625165237-cb05cc201f16 | github.com/Yakitrak/notesmd-cli | 制品仓 |
 | clipboard | v0.1.2 | github.com/atotto/clipboard | 制品仓 |
 | jstream | v1.0.1 | github.com/bcicen/jstream | 官方源 |
 | go-bitmap | v0.0.0-20151001105940-23cd2fb0ce7d | github.com/boljen/go-bitmap | 官方源 |
@@ -22,6 +23,10 @@ go env -w GOPROXY=https://go.repo.openharmony.cn/artifactory/openharmony-go
 | gamma | v0.0.37 | github.com/chaitin/gamma | 官方源(非Go包) |
 | cdproto | v0.0.0-20230802225258-3cf4e6d46a89 | github.com/chromedp/cdproto | 官方源 |
 | chromedp | v0.9.2 | github.com/chromedp/chromedp | 制品仓 |
+| civo | v1.4.0 | github.com/civo/cli | 官方源 |
+| gh | v2.82.1 | github.com/cli/cli/v2 | 官方源 |
+| medusa | v0.0.0-20260514175253-66bb59d05502 | github.com/crytic/medusa | 官方源 |
+| dapr | v1.15.2 | github.com/dapr/cli | 官方源 |
 | go-spew | v1.1.2-0.20180830191138-d8f796af33cc | github.com/davecgh/go-spew | 官方源 |
 | golang-set | v1.8.0 | github.com/deckarep/golang-set | 官方源 |
 | badger | v2.2007.4 | github.com/dgraph-io/badger/v2 | 官方源 |
@@ -30,7 +35,9 @@ go env -w GOPROXY=https://go.repo.openharmony.cn/artifactory/openharmony-go
 | keyboard | v0.0.0-20200508000154-caf4b762e807 | github.com/eiannone/keyboard | 制品仓 |
 | go-imap | v1.2.1 | github.com/emersion/go-imap | 官方源 |
 | dot | v0.14.0 | github.com/emicklei/dot | 官方源 |
+| esbuild | v0.28.2 | github.com/evanw/esbuild | 官方源 |
 | nvdtools | v0.1.6-0.20230612062812-070f4ce499c0 | github.com/facebookincubator/nvdtools | 官方源 |
+| ffuf | v2.2.2-0.20260820093616-33c67d28c85b | github.com/ffuf/ffuf/v2 | 制品仓 |
 | mgo | v0.0.0-20181015135952-eeefdecb41b8 | github.com/globalsign/mgo | 制品仓 |
 | ldap | v3.4.4 | github.com/go-ldap/ldap/v3 | 官方源 |
 | analysis | v0.23.0 | github.com/go-openapi/analysis | 官方源 |
@@ -46,6 +53,7 @@ go env -w GOPROXY=https://go.repo.openharmony.cn/artifactory/openharmony-go
 | jwt | v4.5.2 | github.com/golang-jwt/jwt/v4 | 官方源 |
 | groupcache | v0.0.0-20210331224755-41bb18bfe9da | github.com/golang/groupcache | 官方源 |
 | protobuf | v1.5.4 | github.com/golang/protobuf | 官方源 |
+| golangci-lint | v2.8.0 | github.com/golangci/golangci-lint/v2 | 官方源 |
 | go-github | v17.0.0+incompatible | github.com/google/go-github | 制品仓 |
 | gopacket | v1.1.19 | github.com/google/gopacket | 制品仓 |
 | css | v1.0.0 | github.com/gorilla/css | 官方源 |
@@ -56,8 +64,12 @@ go env -w GOPROXY=https://go.repo.openharmony.cn/artifactory/openharmony-go
 | pp | v3.0.1+incompatible | github.com/k0kubun/pp | 官方源 |
 | golog | v0.1.11 | github.com/kataras/golog | 官方源 |
 | pio | v0.0.13 | github.com/kataras/pio | 官方源 |
+| kurtosis | v1.16.6 | github.com/kurtosis-tech/kurtosis/cli/cli | 官方源 |
+| lark-cli | v0.0.0-20260827173822-0d5334a0cdfd | github.com/larksuite/cli | 制品仓 |
 | promptui | v0.3.2 | github.com/manifoldco/promptui | 官方源 |
 | httprouter | v0.0.0-20250703024700-6012c31a4f50 | github.com/mashiro01/httprouter | 官方源 |
+| go-sqlite3 | v1.14.17 | github.com/mattn/go-sqlite3 | 官方源 |
+| gmailctl | v0.11.0 | github.com/mbrt/gmailctl | 制品仓 |
 | dns | v1.1.59 | github.com/miekg/dns | 官方源 |
 | go-vnc | v0.0.0-20150629162542-723ed9867aed | github.com/mitchellh/go-vnc | 官方源 |
 | termbox-go | v0.0.0-20190817171036-93860e161317 | github.com/nsf/termbox-go | 官方源 |
@@ -66,12 +78,15 @@ go env -w GOPROXY=https://go.repo.openharmony.cn/artifactory/openharmony-go
 | ants | v2.5.0 | github.com/panjf2000/ants/v2 | 官方源 |
 | errors | v0.9.1 | github.com/pkg/errors | 官方源 |
 | pro-bing | v0.4.0 | github.com/prometheus-community/pro-bing | 官方源 |
+| prometheus | v3.8.1 | github.com/prometheus/prometheus | 官方源 |
 | gocui | v0.3.2 | github.com/rocket049/gocui | 官方源 |
 | iprange | v1.0.1 | github.com/russtone/iprange | 官方源 |
 | chardet | v0.0.0-20230101081208-5e3ef4b5456d | github.com/saintfish/chardet | 官方源 |
 | go.uuid | v1.2.1-0.20181028125025-b2ce2384e17b | github.com/satori/go.uuid | 官方源 |
 | goftp | v0.0.0-20200609142545-aa2de14babf4 | github.com/secsy/goftp | 官方源 |
+| checksec | v3.0.2 | github.com/slimm609/checksec | 官方源 |
 | weighted | v0.0.0-20230419055410-36b780e40a7a | github.com/smallnest/weighted | 官方源 |
+| bd | v0.49.1 | github.com/steveyegge/beads | 官方源 |
 | amqp | v1.1.0 | github.com/streadway/amqp | 官方源 |
 | testify | v1.10.0 | github.com/stretchr/testify | 官方源 |
 | go-pop3 | v0.0.0-20140407022049-72f6fae12d45 | github.com/taknb2nch/go-pop3 | 官方源 |
@@ -86,14 +101,17 @@ go env -w GOPROXY=https://go.repo.openharmony.cn/artifactory/openharmony-go
 | gson | v0.7.3 | github.com/ysmood/gson | 官方源 |
 | go-nfs-client | v0.0.0-20200604081958-0cf942f0e0fe | github.com/zema1/go-nfs-client | 官方源 |
 | martian | v1.0.0 | github.com/zema1/martian | 制品仓 |
+| gitleaks | v8.29.1 | github.com/zricethezav/gitleaks/v8 | 制品仓 |
 | bbolt | v1.3.7 | go.etcd.io/bbolt | 官方源 |
 | automaxprocs | v1.3.0 | go.uber.org/automaxprocs | 官方源 |
 | fx | v1.19.2 | go.uber.org/fx | 官方源 |
 | crypto | v0.29.0 | golang.org/x/crypto | 官方源 |
+| gomobile | v0.0.0-20260209203831-923679eb55af | golang.org/x/mobile | 官方源 |
 | net | v0.31.0 | golang.org/x/net | 官方源 |
 | oauth2 | v0.22.0 | golang.org/x/oauth2 | 官方源 |
 | text | v0.20.0 | golang.org/x/text | 官方源 |
 | time | v0.5.0 | golang.org/x/time | 官方源 |
+| goimports | v0.42.0 | golang.org/x/tools | 官方源 |
 | grpc | v1.65.0 | google.golang.org/grpc | 官方源 |
 | protobuf | v1.35.1 | google.golang.org/protobuf | 官方源 |
 | queue.v1 | v1.1.0 | gopkg.in/eapache/queue.v1 | 官方源 |
@@ -103,6 +121,3 @@ go env -w GOPROXY=https://go.repo.openharmony.cn/artifactory/openharmony-go
 | yaml.v3 | v3.0.1 | gopkg.in/yaml.v3 | 官方源 |
 | gorm | v1.25.10 | gorm.io/gorm | 官方源 |
 | go-pkcs12 | v0.2.0 | software.sslmate.com/src/go-pkcs12 | 官方源 |
-| gh | v2.82.1 | github.com/cli/cli/v2 | 官方源 |
-| dingtalk-workspace-cli | v1.0.53-beta.7.0.20260721124719-31c3acc94b59 | github.com/DingTalk-Real-AI/dingtalk-workspace-cli | 制品仓 |
-| notesmd-cli | v0.3.7-0.20260625165237-cb05cc201f16 | github.com/Yakitrak/notesmd-cli | 制品仓 |
