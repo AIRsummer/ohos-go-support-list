@@ -37,7 +37,7 @@ go env -w GOPROXY=https://go.repo.openharmony.cn/artifactory/openharmony-go
 | dot | v0.14.0 | github.com/emicklei/dot | 官方源 |
 | esbuild | v0.28.2 | github.com/evanw/esbuild | 官方源 |
 | nvdtools | v0.1.6-0.20230612062812-070f4ce499c0 | github.com/facebookincubator/nvdtools | 官方源 |
-| ffuf | v2.2.2-0.20260820093616-33c67d28c85b | github.com/ffuf/ffuf/v2 | 制品仓 |
+| ffuf | v2.2.1 | github.com/ffuf/ffuf/v2 | 官方源 |
 | mgo | v0.0.0-20181015135952-eeefdecb41b8 | github.com/globalsign/mgo | 制品仓 |
 | ldap | v3.4.4 | github.com/go-ldap/ldap/v3 | 官方源 |
 | analysis | v0.23.0 | github.com/go-openapi/analysis | 官方源 |
@@ -101,7 +101,7 @@ go env -w GOPROXY=https://go.repo.openharmony.cn/artifactory/openharmony-go
 | gson | v0.7.3 | github.com/ysmood/gson | 官方源 |
 | go-nfs-client | v0.0.0-20200604081958-0cf942f0e0fe | github.com/zema1/go-nfs-client | 官方源 |
 | martian | v1.0.0 | github.com/zema1/martian | 制品仓 |
-| gitleaks | v8.29.1 | github.com/zricethezav/gitleaks/v8 | 制品仓 |
+| gitleaks | v8.29.1 | github.com/zricethezav/gitleaks/v8 | 官方源 |
 | bbolt | v1.3.7 | go.etcd.io/bbolt | 官方源 |
 | automaxprocs | v1.3.0 | go.uber.org/automaxprocs | 官方源 |
 | fx | v1.19.2 | go.uber.org/fx | 官方源 |

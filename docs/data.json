@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-09-04",
+  "last_updated": "2026-09-07",
   "total": 113,
-  "official": 97,
-  "repo": 16,
+  "official": 99,
+  "repo": 14,
   "packages": [
     {
       "name": "clipboard",
@@ -151,8 +151,8 @@
     {
       "name": "ffuf",
       "module": "github.com/ffuf/ffuf/v2",
-      "version": "v2.2.2-0.20260820093616-33c67d28c85b",
-      "source": "repo"
+      "version": "v2.2.1",
+      "source": "official"
     },
     {
       "name": "mgo",
@@ -566,7 +566,7 @@
       "name": "gitleaks",
       "module": "github.com/zricethezav/gitleaks/v8",
       "version": "v8.29.1",
-      "source": "repo"
+      "source": "official"
     },
     {
       "name": "bbolt",
