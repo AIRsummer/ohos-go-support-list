@@ -1,9 +1,21 @@
 {
-  "last_updated": "2026-09-04",
-  "total": 113,
-  "official": 97,
-  "repo": 16,
+  "last_updated": "2026-09-11",
+  "total": 119,
+  "official": 101,
+  "repo": 18,
   "packages": [
+    {
+      "name": "cf",
+      "module": "code.cloudfoundry.org/cli",
+      "version": "v8.14.1",
+      "source": "official"
+    },
+    {
+      "name": "argocd",
+      "module": "github.com/argoproj/argo-cd/v3",
+      "version": "v3.0.12",
+      "source": "repo"
+    },
     {
       "name": "clipboard",
       "module": "github.com/atotto/clipboard",
@@ -41,12 +53,6 @@
       "source": "official"
     },
     {
-      "name": "gamma",
-      "module": "github.com/chaitin/gamma",
-      "version": "v0.0.37",
-      "source": "official"
-    },
-    {
       "name": "cdproto",
       "module": "github.com/chromedp/cdproto",
       "version": "v0.0.0-20230802225258-3cf4e6d46a89",
@@ -71,10 +77,22 @@
       "source": "official"
     },
     {
+      "name": "podman",
+      "module": "github.com/containers/podman/v5",
+      "version": "v5.8.2",
+      "source": "repo"
+    },
+    {
       "name": "medusa",
       "module": "github.com/crytic/medusa",
       "version": "v0.0.0-20260514175253-66bb59d05502",
       "source": "official"
+    },
+    {
+      "name": "filepath-securejoin",
+      "module": "github.com/cyphar/filepath-securejoin",
+      "version": "v0.4.1",
+      "source": "repo"
     },
     {
       "name": "dapr",
@@ -151,8 +169,8 @@
     {
       "name": "ffuf",
       "module": "github.com/ffuf/ffuf/v2",
-      "version": "v2.2.2-0.20260820093616-33c67d28c85b",
-      "source": "repo"
+      "version": "v2.2.1",
+      "source": "official"
     },
     {
       "name": "mgo",
@@ -213,6 +231,12 @@
       "module": "github.com/go-rod/stealth",
       "version": "v0.4.9",
       "source": "repo"
+    },
+    {
+      "name": "task",
+      "module": "github.com/go-task/task/v3",
+      "version": "v3.46.4",
+      "source": "official"
     },
     {
       "name": "glob",
@@ -479,6 +503,12 @@
       "source": "official"
     },
     {
+      "name": "fly",
+      "module": "github.com/superfly/flyctl",
+      "version": "v0.4.17",
+      "source": "official"
+    },
+    {
       "name": "go-pop3",
       "module": "github.com/taknb2nch/go-pop3",
       "version": "v0.0.0-20140407022049-72f6fae12d45",
@@ -566,7 +596,7 @@
       "name": "gitleaks",
       "module": "github.com/zricethezav/gitleaks/v8",
       "version": "v8.29.1",
-      "source": "repo"
+      "source": "official"
     },
     {
       "name": "bbolt",
@@ -675,6 +705,12 @@
       "module": "gorm.io/gorm",
       "version": "v1.25.10",
       "source": "official"
+    },
+    {
+      "name": "mvdan-sh",
+      "module": "mvdan.cc/sh/v3",
+      "version": "v3.12.0",
+      "source": "repo"
     },
     {
       "name": "go-pkcs12",
