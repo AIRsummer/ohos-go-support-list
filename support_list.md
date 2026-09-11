@@ -8,8 +8,6 @@ go env -w GOPROXY=https://go.repo.openharmony.cn/artifactory/openharmony-go
 
 | 包名 | 版本 | 仓库地址(module路径) | 获取方式 |
 |---|---|---|---|
-| cf | v8.14.1 | code.cloudfoundry.org/cli | 官方源 |
-| argocd | v3.0.12 | github.com/argoproj/argo-cd/v3 | 制品仓 |
 | clipboard | v0.1.2 | github.com/atotto/clipboard | 制品仓 |
 | jstream | v1.0.1 | github.com/bcicen/jstream | 官方源 |
 | go-bitmap | v0.0.0-20151001105940-23cd2fb0ce7d | github.com/boljen/go-bitmap | 官方源 |
@@ -22,7 +20,6 @@ go env -w GOPROXY=https://go.repo.openharmony.cn/artifactory/openharmony-go
 | gh | v2.82.1 | github.com/cli/cli/v2 | 官方源 |
 | podman | v5.8.2 | github.com/containers/podman/v5 | 制品仓 |
 | medusa | v0.0.0-20260514175253-66bb59d05502 | github.com/crytic/medusa | 官方源 |
-| filepath-securejoin | v0.4.1 | github.com/cyphar/filepath-securejoin | 制品仓 |
 | dapr | v1.15.2 | github.com/dapr/cli | 官方源 |
 | go-spew | v1.1.2-0.20180830191138-d8f796af33cc | github.com/davecgh/go-spew | 官方源 |
 | golang-set | v1.8.0 | github.com/deckarep/golang-set | 官方源 |
@@ -46,7 +43,6 @@ go env -w GOPROXY=https://go.repo.openharmony.cn/artifactory/openharmony-go
 | redis | v6.15.9+incompatible | github.com/go-redis/redis | 官方源 |
 | rod | v0.116.0 | github.com/go-rod/rod | 官方源 |
 | stealth | v0.4.9 | github.com/go-rod/stealth | 制品仓 |
-| task | v3.46.4 | github.com/go-task/task/v3 | 官方源 |
 | glob | v0.2.3 | github.com/gobwas/glob | 官方源 |
 | colly | v1.2.0 | github.com/gocolly/colly | 制品仓 |
 | jwt | v4.5.2 | github.com/golang-jwt/jwt/v4 | 官方源 |
@@ -91,7 +87,6 @@ go env -w GOPROXY=https://go.repo.openharmony.cn/artifactory/openharmony-go
 | bd | v0.49.1 | github.com/steveyegge/beads | 官方源 |
 | amqp | v1.1.0 | github.com/streadway/amqp | 官方源 |
 | testify | v1.10.0 | github.com/stretchr/testify | 官方源 |
-| fly | v0.4.17 | github.com/superfly/flyctl | 官方源 |
 | go-pop3 | v0.0.0-20140407022049-72f6fae12d45 | github.com/taknb2nch/go-pop3 | 官方源 |
 | abool | v0.0.0-20170917061928-9b9efcf221b5 | github.com/tevino/abool | 官方源 |
 | go-funk | v0.9.3 | github.com/thoas/go-funk | 官方源 |
@@ -125,5 +120,10 @@ go env -w GOPROXY=https://go.repo.openharmony.cn/artifactory/openharmony-go
 | yaml.v2 | v2.4.0 | gopkg.in/yaml.v2 | 官方源 |
 | yaml.v3 | v3.0.1 | gopkg.in/yaml.v3 | 官方源 |
 | gorm | v1.25.10 | gorm.io/gorm | 官方源 |
-| mvdan-sh | v3.12.0 | mvdan.cc/sh/v3 | 制品仓 |
 | go-pkcs12 | v0.2.0 | software.sslmate.com/src/go-pkcs12 | 官方源 |
+| cf | v8.14.1 | code.cloudfoundry.org/cli | 官方源 |
+| argocd | v3.0.12 | github.com/argoproj/argo-cd/v3 | 制品仓 |
+| filepath-securejoin | v0.4.1 | github.com/cyphar/filepath-securejoin | 制品仓 |
+| task | v3.46.4 | github.com/go-task/task/v3 | 官方源 |
+| fly | v0.4.17 | github.com/superfly/flyctl | 官方源 |
+| mvdan-sh | v3.12.0 | mvdan.cc/sh/v3 | 制品仓 |
