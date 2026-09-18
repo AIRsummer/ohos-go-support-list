@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-11",
+  "last_updated": "2026-09-18",
   "total": 119,
   "official": 101,
   "repo": 18,
@@ -343,7 +343,7 @@
     {
       "name": "lark-cli",
       "module": "github.com/larksuite/cli",
-      "version": "v0.0.0-20260827173822-0d5334a0cdfd",
+      "version": "v0.0.0-20260827093822-0d5334a0cdfd",
       "source": "repo"
     },
     {

@@ -60,7 +60,7 @@ go env -w GOPROXY=https://go.repo.openharmony.cn/artifactory/openharmony-go
 | golog | v0.1.11 | github.com/kataras/golog | 官方源 |
 | pio | v0.0.13 | github.com/kataras/pio | 官方源 |
 | kurtosis | v1.16.6 | github.com/kurtosis-tech/kurtosis/cli/cli | 官方源 |
-| lark-cli | v0.0.0-20260827173822-0d5334a0cdfd | github.com/larksuite/cli | 制品仓 |
+| lark-cli | v0.0.0-20260827093822-0d5334a0cdfd | github.com/larksuite/cli | 制品仓 |
 | promptui | v0.3.2 | github.com/manifoldco/promptui | 官方源 |
 | httprouter | v0.0.0-20250703024700-6012c31a4f50 | github.com/mashiro01/httprouter | 官方源 |
 | go-sqlite3 | v1.14.17 | github.com/mattn/go-sqlite3 | 官方源 |
