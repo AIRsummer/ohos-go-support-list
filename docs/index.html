@@ -236,8 +236,8 @@
     }
     tbody tr { transition: background .12s; }
     tbody tr:hover { background: #f0fafd; }
-    .col-name { width: 20%; } .col-version { width: 22%; }
-    .col-module { width: 38%; } .col-source { width: 20%; }
+    .col-name { width: 18%; } .col-version { width: 16%; } .col-category { width: 14%; }
+    .col-module { width: 34%; } .col-source { width: 18%; }
 
     .pkg-name { font-family: var(--mono); font-weight: 700; font-size: 13px; color: var(--c-text); }
     .pkg-version { font-family: var(--mono); font-size: 12.5px; color: var(--c-text-2); }
@@ -252,6 +252,16 @@
     .badge::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
     .badge-repo { background: var(--c-repo-bg); color: var(--c-repo); border-color: var(--c-repo-border); }
     .badge-official { background: var(--c-official-bg); color: var(--c-official); border-color: var(--c-official-border); }
+    .cat-badge { display: inline-block; padding: 3px 8px; border-radius: 4px; font-size: 11px; font-weight: 500; white-space: nowrap; }
+    .cat-ai-ml { background: #f3ecfb; color: #7147a8; }
+    .cat-database { background: #fff3e0; color: #9c4f00; }
+    .cat-data-science { background: #eaf3fa; color: #1769aa; }
+    .cat-web-network { background: #e7f5ee; color: #087f5b; }
+    .cat-dev-test { background: #eef1f4; color: #52606d; }
+    .cat-system-cloud { background: #fff0ee; color: #a3362d; }
+    .cat-office { background: #e8f4f2; color: #176b5b; }
+    .cat-other { background: #f4f5f7; color: #667085; }
+
 
     /* 搜索高亮：Go 蓝荧光笔下划效果 */
     mark { background: linear-gradient(transparent 50%, rgba(0, 172, 215, .25) 50%); color: inherit; padding: 0 1px; border-radius: 2px; }
@@ -313,6 +323,7 @@
       .segments { width: 100%; }
       .segments button { flex: 1; padding: 0 8px; }
       .col-module, td.module { display: none; }
+      .col-category { width: 24%; }
       .col-name { width: 34%; } .col-version { width: 38%; } .col-source { width: 28%; }
       th, td { padding-left: 14px; padding-right: 14px; }
     }
@@ -385,7 +396,7 @@
       <div class="table-scroll">
         <table id="resultTable">
           <thead><tr>
-            <th class="col-name">包名</th><th class="col-version">版本</th>
+            <th class="col-name">包名</th><th class="col-version">版本</th><th class="col-category">分类</th>
             <th class="col-module">仓库地址（module 路径）</th><th class="col-source">获取方式</th>
           </tr></thead>
           <tbody id="resultBody">
@@ -412,7 +423,17 @@
   </footer>
 
   <script>
-    const DATA_URL = "data.json";
+    const CATEGORY_LABELS = {
+      "ai-ml": "AI 与机器学习",
+      "database": "数据库与存储",
+      "data-science": "数据科学与计算",
+      "web-network": "Web 与网络",
+      "dev-test": "开发工具与测试",
+      "system-cloud": "基础设施与云服务",
+      "office": "通用办公",
+      "other": "其他"
+    };
+    const DATA_URL = "data/all.json";
     const state = { packages: [], query: "", source: "all" };
     const $ = id => document.getElementById(id);
 
@@ -457,7 +478,9 @@
           ? '<span class="badge badge-repo">制品仓</span>'
           : '<span class="badge badge-official">官方源</span>';
         const module = `<a class="pkg-module" href="${escapeHtml(moduleUrl(pkg.module))}" target="_blank" rel="noopener">${highlight(pkg.module, q)}</a>`;
-        return `<tr><td class="pkg-name">${highlight(pkg.name, q)}</td><td class="pkg-version">${escapeHtml(pkg.version)}</td><td>${module}</td><td>${badge}</td></tr>`;
+        const catLabel = CATEGORY_LABELS[pkg.category] || pkg.category || "其他";
+        const catBadge = `<span class="cat-badge cat-${pkg.category}">${escapeHtml(catLabel)}</span>`;
+        return `<tr><td class="pkg-name">${highlight(pkg.name, q)}</td><td class="pkg-version">${escapeHtml(pkg.version)}</td><td>${catBadge}</td><td>${module}</td><td>${badge}</td></tr>`;
       }).join("");
 
       const label = q ? `“${state.query}”的搜索结果` : "全部包";
