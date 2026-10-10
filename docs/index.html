@@ -525,14 +525,19 @@
 
     async function init() {
       try {
-        const response = await fetch(DATA_URL);
-        if (!response.ok) throw new Error("无法读取数据");
-        const data = await response.json();
-        state.packages = data.packages;
-        $("totalCount").textContent = data.total.toLocaleString("zh-CN");
-        $("repoCount").textContent = data.repo.toLocaleString("zh-CN");
-        $("officialCount").textContent = data.official.toLocaleString("zh-CN");
-        $("lastUpdated").textContent = data.last_updated;
+        const [pkgRes, idxRes] = await Promise.all([
+          fetch(DATA_URL),
+          fetch("data/index.json")
+        ]);
+        if (!pkgRes.ok) throw new Error("无法读取包数据");
+        if (!idxRes.ok) throw new Error("无法读取索引数据");
+        const packages = await pkgRes.json();
+        const index = await idxRes.json();
+        state.packages = packages;
+        $("totalCount").textContent = index.total.toLocaleString("zh-CN");
+        $("repoCount").textContent = index.repo.toLocaleString("zh-CN");
+        $("officialCount").textContent = index.official.toLocaleString("zh-CN");
+        $("lastUpdated").textContent = index.last_updated;
         render();
       } catch (error) {
         $("resultBody").innerHTML = "";
