@@ -86,7 +86,7 @@ go env -w GOPROXY=https://go.repo.openharmony.cn/artifactory/openharmony-go
 | sarama | v1.24.0 | github.com/Shopify/sarama | 官方源 |
 | checksec | v3.0.2 | github.com/slimm609/checksec | 官方源 |
 | weighted | v0.0.0-20230419055410-36b780e40a7a | github.com/smallnest/weighted | 官方源 |
-| sag | v0.2.2 | github.com/steipete/sag | 官方源 |
+| sag | v0.2.2 | github.com/steipete/sag | 制品仓 |
 | bd | v0.49.1 | github.com/steveyegge/beads | 官方源 |
 | amqp | v1.1.0 | github.com/streadway/amqp | 官方源 |
 | testify | v1.10.0 | github.com/stretchr/testify | 官方源 |
