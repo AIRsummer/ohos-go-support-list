@@ -25,6 +25,7 @@ go env -w GOPROXY=https://go.repo.openharmony.cn/artifactory/openharmony-go
 | golang-set | v1.8.0 | github.com/deckarep/golang-set | 官方源 |
 | badger | v2.2007.4 | github.com/dgraph-io/badger/v2 | 官方源 |
 | dingtalk-workspace-cli | v1.0.53-beta.7.0.20260721124719-31c3acc94b59 | github.com/DingTalk-Real-AI/dingtalk-workspace-cli | 制品仓 |
+| blogwatcher | v0.0.4 | github.com/Hyaxia/blogwatcher | 官方源 |
 | regexp2 | v1.11.4 | github.com/dlclark/regexp2 | 官方源 |
 | goja | v0.0.0-20240220182346-e401ed450204 | github.com/dop251/goja | 官方源 |
 | keyboard | v0.0.0-20200508000154-caf4b762e807 | github.com/eiannone/keyboard | 制品仓 |
@@ -53,6 +54,7 @@ go env -w GOPROXY=https://go.repo.openharmony.cn/artifactory/openharmony-go
 | gopacket | v1.1.19 | github.com/google/gopacket | 制品仓 |
 | css | v1.0.0 | github.com/gorilla/css | 官方源 |
 | gosnmp | v1.35.0 | github.com/gosnmp/gosnmp | 官方源 |
+| terraform | v1.13.5 | github.com/hashicorp/terraform | 官方源 |
 | go-smb2 | v1.1.0 | github.com/hirochachacha/go-smb2 | 官方源 |
 | go-ebcdic | v0.0.0-20190525020121-de04eeaabf72 | github.com/indece-official/go-ebcdic | 官方源 |
 | copier | v0.4.0 | github.com/jinzhu/copier | 官方源 |
@@ -84,6 +86,7 @@ go env -w GOPROXY=https://go.repo.openharmony.cn/artifactory/openharmony-go
 | sarama | v1.24.0 | github.com/Shopify/sarama | 官方源 |
 | checksec | v3.0.2 | github.com/slimm609/checksec | 官方源 |
 | weighted | v0.0.0-20230419055410-36b780e40a7a | github.com/smallnest/weighted | 官方源 |
+| sag | v0.2.2 | github.com/steipete/sag | 官方源 |
 | bd | v0.49.1 | github.com/steveyegge/beads | 官方源 |
 | amqp | v1.1.0 | github.com/streadway/amqp | 官方源 |
 | testify | v1.10.0 | github.com/stretchr/testify | 官方源 |
