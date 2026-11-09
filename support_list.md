@@ -6,6 +6,8 @@
 go env -w GOPROXY=https://go.repo.openharmony.cn/artifactory/openharmony-go
 ```
 
+> 清单为**追加制**：新包一律加表末尾，不按名称排序（2026-11-09 定稿）；拟增"修复日期"列。
+
 | 包名 | 版本 | 仓库地址(module路径) | 获取方式 |
 |---|---|---|---|
 | clipboard | v0.1.2 | github.com/atotto/clipboard | 制品仓 |
